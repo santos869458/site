@@ -1,6 +1,29 @@
 body {
-  background-color:lightcoral;
+  background-color:sienna;
   font-family:calibri;
   font-size: 20px;
-  color: floralwhite; 
+  color:darkred; 
 }
+
+header {
+   background-color:bisque ;
+}
+a {
+   color: brown;
+}
+header a {
+   color:brown;
+   text-decoration: none;
+}
+
+article a {
+  background-color:brown;
+  color: bisque;
+  text-decoration: none;
+}
+
+footer{
+  background-color: brown;
+  color:bisque;
+}
+
