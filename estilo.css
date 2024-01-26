@@ -1,29 +1,45 @@
-body {
-  background-color:sienna;
-  font-family:calibri;
-  font-size: 20px;
-  color:darkred; 
+*{
+  margin: 0;
 }
 
-header {
+body {
+  background-color: aliceblue;
+  font-family:calibri;
+  font-size: 19px;
+  color:brown; 
+}
+
+.topo a {
    background-color:bisque ;
+   padding: 30px;
 }
-a {
-   color: brown;
+
+article {
+  background-color: bisque;
+  padding: 30px;
+  margin-bottom: 30px;
 }
-header a {
+
+.topo a {
    color:brown;
    text-decoration: none;
+   
 }
 
 article a {
   background-color:brown;
   color: bisque;
   text-decoration: none;
+  padding: 10px;
 }
 
-footer{
-  background-color: brown;
-  color:bisque;
+.rodape {
+  background-color:bisque;
+  color:brown;
+  padding: 30px;
+}
+
+main{
+  padding: 30px;
 }
 
