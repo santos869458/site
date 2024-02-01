@@ -79,6 +79,11 @@ color:black ;
   text-decoration: none;
   padding: 10px;
   display: inline-block;
+  border-radius: 10px;
+}
+
+.botao:hover {
+  background-color:black;
 }
 
 .navegacao{
@@ -87,5 +92,10 @@ color:black ;
 
 main{
   padding: 30px;
+}
+
+.grade{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(600px,1fr));
 }
 
