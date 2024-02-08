@@ -43,8 +43,8 @@ body {
 }
 
 .materia h1 {
-margin-bottom: 10px;
-font-size: 30px;
+margin-bottom: 18px;
+font-size: 28px;
 color: brown;
 }
 
@@ -66,8 +66,8 @@ color:black ;
 
 .texto{
   text-align: center;
-  margin-bottom: 30px;
-  font-size: 25px;
+  margin-bottom: 20px;
+  font-size: 20px;
   color:brown;
 }
 
@@ -94,7 +94,7 @@ color:black ;
 }
 
 main{
-  padding: 30px;
+  padding: 20px;
 }
 
 .grade{
@@ -140,4 +140,15 @@ textarea.campo {
 .mapa{
   width: 100%;
 }
+
+@media (min-width: 768px) {
+  .topo a {
+    font-size: 18px;
+  }
+
+  .materia h1 {
+font-size: 30px;
+  }
+}
+
 
