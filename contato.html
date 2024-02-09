@@ -24,20 +24,20 @@
     </header>
 <main>
 <h1 class="titulo">contato</h1>
-<p class="texto">O movimento circular é resultado da aplicação de uma força centrípeta perpendicular à direção da velocidade de um corpo que se move com velocidade constante ou variável.</p>
+<p class="texto">Os campos com * são de preenchimento obrigatório!</p>
 
 <!--Corpo do formulario-->
 <form class="contato">
     <!--Campos do formulario-->
     <!--Campo Nome-->
     <label class="rotulo">
-        Nome
-    <input type="text" class="campo">
+        Nome*
+    <input type="text" class="campo" required>
     </label>
     <!--Campo Email-->
     <label class="rotulo">
-        Email
-    <input type="email" class="campo">
+        Email*
+    <input type="email" class="campo" required>
     </label>
 <!--campo Assunto-->
 <label class="rotulo">
@@ -50,8 +50,8 @@
 </label>
 <!--Campo Mensagem-->
 <label class="rotulo">
-    Mensagem
-    <textarea class="campo"></textarea>
+    Mensagem*
+    <textarea class="campo" required></textarea>
 </label>
 <!--Botão Enviar-->
 <button class="botao">Enviar</button>
